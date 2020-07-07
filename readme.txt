@@ -1,6 +1,8 @@
 b站  编程不良人 
 
-springmvc 从入门到精通   https://www.bilibili.com/video/BV1pE411E7fv
+ 
+ 继spring之后快速入门springmvc,面对SpringMVC不用慌
+ https://www.bilibili.com/video/BV1WD4y1D7kz
 
 
 1. 引入jar包
