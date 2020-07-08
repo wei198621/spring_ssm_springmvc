@@ -15,7 +15,19 @@
         <property name="suffix" value=".jsp"></property>
     </bean>
     <!--解决静态资源拦截的配置-->
+    <!-- http://localhost:8091/ssm_springmvc/login.html 配置后*.html地址可以访问，否则不行 报404 The requested resource is not available.  -->
     <mvc:default-servlet-handler />
+
+
+    <!--配置文件上传解析器
+       id:必须指定为 multipartResolver
+       否则报错 Unable to process parts as no multi-part configuration has been provided
+   -->
+
+    <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
+        <!--注入文件上传下载大小限制 单位字节 2M=2097152字节 默认:没有限制-->
+        <property name="maxUploadSize" value="20971520"></property>
+    </bean>
 
 
 </beans>

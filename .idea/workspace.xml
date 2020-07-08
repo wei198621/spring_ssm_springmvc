@@ -7,25 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bae618d6-966b-4fbf-9298-0c19ea159462" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/dao/UserDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/entity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/service/UserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/tz/leo/ssm/springmvc/mapper/UserDaoMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/findAll.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tz/leo/test/TestUserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/controller/FileController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/down/aa.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/down/docker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/down/自我介绍.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/download.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.5.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/upload.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/upload/33.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_ssm_springmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_ssm_springmvc_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/spring_ssm_springmvc.iml" afterPath="$PROJECT_DIR$/spring_ssm_springmvc.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_springmvc/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/target/ssm_springmvc/WEB-INF/classes/springmvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,28 +35,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/controller/UserController.java">
+      <file leaf-file-name="SpringMVC_day1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringMVC_day1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+                <folding>
+                  <marker date="1591066909000" expanded="true" signature="508:653" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="670:818" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="835:991" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1008:1153" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1170:1314" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1331:1477" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1494:1645" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1662:1810" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1827:1970" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="1987:2131" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="2169:2316" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="2355:2514" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="2966:3069" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="3121:3436" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="3295:3423" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="3457:3554" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="3679:3716" ph="@{...}" />
+                  <marker date="1591066909000" expanded="true" signature="3803:3897" ph="{...}" />
+                  <marker date="1591066909000" expanded="true" signature="4373:4612" ph="h1: ## 1. Controller跳转到JSP" />
+                  <marker date="1591066909000" expanded="true" signature="4614:4916" ph="h1: ## 2. Controller跳转到Controller" />
+                  <marker date="1591066909000" expanded="true" signature="5427:5738" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="5769:5806" ph="@{...}" />
+                  <marker date="1591066909000" expanded="true" signature="5951:6186" ph="{...}" />
+                  <marker date="1591066909000" expanded="true" signature="6529:6840" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="7163:7222" ph="{...}" />
+                  <marker date="1591066909000" expanded="true" signature="7491:7770" ph="..." />
+                  <marker date="1591066909000" expanded="true" signature="8113:8217" ph="h1: ## GET 方式请求参数传递" />
+                  <marker date="1591066909000" expanded="true" signature="8219:8616" ph="h1: ## POST 方式请求参数传递" />
+                  <marker date="1591066909000" expanded="true" signature="8990:9079" ph="{...}" />
+                  <marker date="1591066909000" expanded="true" signature="9210:9342" ph="h1: ## 1.针对于GET方式中文乱码解决方案:" />
+                  <marker date="1591066909000" expanded="true" signature="9397:9454" ph="h1: ## 1.数据怎么存" />
+                  <marker date="1591066909000" expanded="true" signature="9455:9517" ph="h1: ## 2.数据怎么取" />
+                  <marker date="1591066909000" expanded="true" signature="9518:9589" ph="h1: ## 3.数据怎么展示&#9;&#9;" />
+                  <marker date="1591066909000" expanded="true" signature="9630:9698" ph="h1: ## 1.使用servlet中原始的reque...域传递数据" />
+                  <marker date="1591066909000" expanded="true" signature="9700:9822" ph="h1: ## 2.使用是springmvc中封装的Mo...用域封装)" />
+                  <marker date="1591066909000" expanded="true" signature="9864:9906" ph="h1: ## 1.使用地址栏进行数据传递" />
+                  <marker date="1591066909000" expanded="true" signature="9908:9986" ph="h1: ## 2.使用session作用域" />
+                  <marker date="1591066909000" expanded="true" signature="10049:10115" ph="h1: ## 问题:当web.xml中配置为&quot;/&quot;时,...目静态资源" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="download.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/download.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring_ssm_springmvc.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring_ssm_springmvc.iml">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -68,22 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/tz/leo/ssm/springmvc/mapper/UserDaoMapper.xml">
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
               <folding>
-                <marker date="1594118996793" expanded="true" signature="266:319" ph="INSERT INTO USER... " />
-                <marker date="1594118996793" expanded="true" signature="386:426" ph="SELECT id,na... USER" />
-                <marker date="1594118996793" expanded="true" signature="493:576" ph="SELECT id,na... USER" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <file leaf-file-name="33.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/33.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,28 +149,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tz/leo/test/TestUserService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="333">
+              <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="160" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/add.jsp">
+      <file leaf-file-name="aa.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/down/aa.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -122,27 +172,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findAll.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/findAll.jsp">
+      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/FileInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="191">
+              <caret line="231" column="15" lean-forward="false" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,11 +212,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tz/leo/test/TestUserService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/download.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/upload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/controller/FileController.java" />
       </list>
     </option>
   </component>
@@ -184,6 +236,28 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_springmvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_springmvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_springmvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="commons-fileupload:commons-fileupload:1.4" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -319,13 +393,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_ssm_springmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_ssm_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,6 +416,8 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\04_CodeFromNet\spring_ssm_springmvc\src\main\webapp" />
+      <recent name="D:\04_CodeFromNet\spring_ssm_springmvc\src\main\webapp\down" />
+      <recent name="D:\04_CodeFromNet\spring_ssm_springmvc" />
       <recent name="D:\04_CodeFromNet\spring_ssm_springmvc\src\main\resources" />
       <recent name="D:\04_CodeFromNet\spring_ssm_springmvc\src\main\java" />
     </key>
@@ -533,12 +603,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594120733600</updated>
-      <workItem from="1594120734929" duration="1055000" />
+      <workItem from="1594120734929" duration="7018000" />
     </task>
+    <task id="LOCAL-00001" summary="百知兄写的readme">
+      <created>1594122552755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594122552755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1055000" />
+    <option name="totallyTimeSpent" value="7018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,7 +625,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Json Parser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -619,22 +697,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="百知兄写的readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="百知兄写的readme" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="144" column="16" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -735,19 +806,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/spring_ssm_springmvc.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ssm_springmvc.iml">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_day1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="389" column="0" lean-forward="false" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+            <folding>
+              <marker date="1591066909000" expanded="true" signature="508:653" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="670:818" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="835:991" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1008:1153" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1170:1314" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1331:1477" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1494:1645" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1662:1810" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1827:1970" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="1987:2131" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="2169:2316" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="2355:2514" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="2966:3069" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="3121:3436" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="3295:3423" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="3457:3554" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="3679:3716" ph="@{...}" />
+              <marker date="1591066909000" expanded="true" signature="3803:3897" ph="{...}" />
+              <marker date="1591066909000" expanded="true" signature="4373:4612" ph="h1: ## 1. Controller跳转到JSP" />
+              <marker date="1591066909000" expanded="true" signature="4614:4916" ph="h1: ## 2. Controller跳转到Controller" />
+              <marker date="1591066909000" expanded="true" signature="5427:5738" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="5769:5806" ph="@{...}" />
+              <marker date="1591066909000" expanded="true" signature="5951:6186" ph="{...}" />
+              <marker date="1591066909000" expanded="true" signature="6529:6840" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="7163:7222" ph="{...}" />
+              <marker date="1591066909000" expanded="true" signature="7491:7770" ph="..." />
+              <marker date="1591066909000" expanded="true" signature="8113:8217" ph="h1: ## GET 方式请求参数传递" />
+              <marker date="1591066909000" expanded="true" signature="8219:8616" ph="h1: ## POST 方式请求参数传递" />
+              <marker date="1591066909000" expanded="true" signature="8990:9079" ph="{...}" />
+              <marker date="1591066909000" expanded="true" signature="9210:9342" ph="h1: ## 1.针对于GET方式中文乱码解决方案:" />
+              <marker date="1591066909000" expanded="true" signature="9397:9454" ph="h1: ## 1.数据怎么存" />
+              <marker date="1591066909000" expanded="true" signature="9455:9517" ph="h1: ## 2.数据怎么取" />
+              <marker date="1591066909000" expanded="true" signature="9518:9589" ph="h1: ## 3.数据怎么展示&#9;&#9;" />
+              <marker date="1591066909000" expanded="true" signature="9630:9698" ph="h1: ## 1.使用servlet中原始的reque...域传递数据" />
+              <marker date="1591066909000" expanded="true" signature="9700:9822" ph="h1: ## 2.使用是springmvc中封装的Mo...用域封装)" />
+              <marker date="1591066909000" expanded="true" signature="9864:9906" ph="h1: ## 1.使用地址栏进行数据传递" />
+              <marker date="1591066909000" expanded="true" signature="9908:9986" ph="h1: ## 2.使用session作用域" />
+              <marker date="1591066909000" expanded="true" signature="10049:10115" ph="h1: ## 问题:当web.xml中配置为&quot;/&quot;时,...目静态资源" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.5.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1" column="1384" lean-forward="false" selection-start-line="1" selection-start-column="1384" selection-end-line="1" selection-end-column="1384" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="231" column="15" lean-forward="false" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/down/aa.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/33.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/download.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="160" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tz/leo/ssm/springmvc/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

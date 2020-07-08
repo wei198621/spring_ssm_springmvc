@@ -32,6 +32,8 @@
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.62" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.17" />
           <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.3.8" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
