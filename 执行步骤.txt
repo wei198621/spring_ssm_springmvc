@@ -1,0 +1,73 @@
+
+ 一、验证spring 与 mybatis 集成
+     执行 test/java/com/tz/leo/test/TestUserService 下面的main函数，如果可以正常打印，说明 spring 与 mybatis 集成没有问题
+
+ 二、 验证 ssm(springMvc版) 是否成功
+  http://localhost:8091/ssm_springmvc/user/findAll
+
+ 三、验证静态路由问题
+     http://localhost:8091/ssm_springmvc/login.html
+   resources/springmvc.xml 注释      <mvc:default-servlet-handler /> 页面不可以正常显示
+   resources/springmvc.xml 撤销注释  <mvc:default-servlet-handler /> 页面  可以正常显示
+
+ 四、文件下载
+  http://localhost:8091/ssm_springmvc/download.jsp
+
+
+ 五、文件上传
+  http://localhost:8091/ssm_springmvc/upload.jsp
+  注意需要引用Jar包
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.4</version>
+    </dependency>
+
+六、 ajax示例
+ http://localhost:8091/ssm_springmvc/ajaxJson.jsp
+ 使用ajax 显示列表，
+ 方式一：传统方式，使用 HttpServletResponse会写返回值
+ 方式二、三：@ResponseBody 方式返回值  ,使用Jackson方式自动封装返回值, 所以需要增加jar包引用
+
+    <!--@ResponseBody注解在转换json时使用jackson依赖-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+
+ 七、 拦截器
+ a.) springmvc.xml 中没有配置拦截器，此两个页面都可以正常显示
+      http://localhost:8091/ssm_springmvc/user/findAll
+      http://localhost:8091/ssm_springmvc/userAjax/findAll
+
+ b.) 配置拦截器
+ <!--配置拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/userAjax/*"></mvc:mapping>
+            <ref bean="myInterceptor"></ref>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+ c.) 配置了拦截器以后
+ http://localhost:8091/ssm_springmvc/user/findAll    -- 正常访问
+ http://localhost:8091/ssm_springmvc/userAjax/findAll   ---跳到拦截器指定的 下面页面
+  http://localhost:8091/ssm_springmvc/login.html
+
+ 八、全局异常处理
+ a.)  自定义异常类型 UserNameNotFoundException
+ b.)  自定义异常处理类  class GlobalExceptionResolver implements HandlerExceptionResolver
+        if(ex instanceof UserNameNotFoundException){
+            modelAndView.setViewName("redirect:/login.html");
+        }else{
+            modelAndView.setViewName("redirect:/error.jsp");
+        }
+
+
+ c.)  没有报异常的征程显示页面
+       http://localhost:8091/ssm_springmvc/excepTest/findAll
+ d.)  抛出指定 UserNameNotFoundException 异常  ，会进入 login.html 页面
+      http://localhost:8091/ssm_springmvc/excepTest/findAll02
+ c.)  抛出其他异常，会计入  error.jsp 页面
+      http://localhost:8091/ssm_springmvc/excepTest/findAll03
