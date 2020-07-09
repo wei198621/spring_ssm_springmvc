@@ -21,6 +21,6 @@
 <c:forEach items="${requestScope.users}" var="user">
     ${user.id} ===${user.name} ===${user.age} ===${user.bir} <br>
 </c:forEach>
-<a href="${pageContext.request.contextPath}/add.jsp";
+<a href="${pageContext.request.contextPath}/add.jsp"></a>
 </body>
 </html>

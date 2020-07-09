@@ -21,13 +21,25 @@
 
     <!--配置文件上传解析器
        id:必须指定为 multipartResolver
-       否则报错 Unable to process parts as no multi-part configuration has been provided
-   -->
-
+       否则报错 Unable to process parts as no multi-part configuration has been provided   -->
     <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
         <!--注入文件上传下载大小限制 单位字节 2M=2097152字节 默认:没有限制-->
         <property name="maxUploadSize" value="20971520"></property>
     </bean>
+
+
+    <!--注册拦截器-->
+    <bean class="com.tz.leo.ssm.springmvc.interceptors.MyInterceptor" id="myInterceptor"></bean>
+    <!--配置拦截器-->
+    <!--<mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/userAjax/*"></mvc:mapping>
+            <ref bean="myInterceptor"></ref>
+        </mvc:interceptor>
+    </mvc:interceptors>-->
+
+    <!--配置全局异常处理类-->
+    <bean class="com.tz.leo.ssm.springmvc.handlerxception.GlobalExceptionResolver"></bean>
 
 
 </beans>

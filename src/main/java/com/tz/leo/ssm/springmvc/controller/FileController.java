@@ -82,7 +82,7 @@ public class FileController {
 
         //4.将文件上传到upload对应日期的目录中
         fileName.transferTo(new File(dateDir,newFileName));
-        return "index";
+        return "fileUploadSuccess";
     }
 
 
