@@ -160,7 +160,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.62</version>
+      <version>1.2.83</version>
     </dependency>
 
     <!--@ResponseBody注解在转换json时使用jackson依赖-->
